@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" href = "style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>♡</title>
+</head>
+<body>
+    <div>
+        <img id="image" src="" />
+        <p id="caption"></p>
+    </div>
+    <button type="button" onclick="show()" id="btnID">
+        тікни ♡
+    </button>
+    <script>
+        function show() {
+            let image = document.getElementById("image");
+            image.src = "https://www.meme-arsenal.com/memes/9c1c3972bbdfad50d1f10cf107a4d22e.jpg"
+            caption.textContent = "это тебе!!";
+            document.getElementById("btnID")
+                .style.display = "none";
+        }
+    </script>
+</body>
+</html>
