@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>♡</title>
+    <style>
+        #image {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img id="image" src="cat.img/cat.jpg" alt="bg">
+        <p id="caption"></p>
+    </div>
+    <button type="button" onclick="show()" id="btnID">
+        тікни ♡
+    </button>
+    <script>
+        function show() {
+            let image = document.getElementById("image");
+            caption.textContent = "это тебе!!";
+            image.style.display = "block";
+            document.getElementById("btnID").style.display = "none";
+        }
+    </script>
+</body>
+</html>
